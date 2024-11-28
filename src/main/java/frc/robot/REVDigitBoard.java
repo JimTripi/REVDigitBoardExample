@@ -165,10 +165,10 @@ public class REVDigitBoard {
 	 }
 	 
 	 boolean getButtonA() {
-		 return buttonA.get();
+		 return ! buttonA.get();
 	 }
 	 boolean getButtonB() {
-		 return buttonB.get();
+		 return ! buttonB.get();
 	 }
 	 double getPot() {
 		 return pot.getVoltage();
